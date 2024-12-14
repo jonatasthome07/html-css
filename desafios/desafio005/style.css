@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@font-face {font-family: 'Android';
+    src: url(fontes/idroid.otf);
+    format:('opentype');}
+
+
+    :root{--cor00:#31CB00;
+--cor01:#119822;
+--cor02:#2A7221;
+--cor03:#1E441E;
+--cor04:#152614;
+
+--fonte-android:'Android',cursive;
+--fonte-padrao: 'Arial', Helvetica, sans-serif;
+--fonte-header:"Oswald", sans-serif;}
+
+body{background-color: var(--cor02);}
+
+header{color: white;
+background-image:linear-gradient(to bottom, var(--cor02), var(--cor03));
+font-family: var(--fonte-header);
+position: fixed;
+top: 1px;
+left: 0%;
+right: 10px;
+bottom: 475px;
+margin-right: -20px;
+margin-bottom: 11px;
+margin-top: -50px;
+padding-top: 10px;}
+header h1 {padding-top: 30px;
+text-align: center;}
+header p {text-align: center;}
+
+nav a {padding: 10px;
+text-decoration: none;
+color: white;}
+nav a:hover{background-color: #119822;
+color: #31CB00;
+border-radius: 5px;
+transition-duration: 0.5s;}
+
+main{background-color: white;
+width: 950px;
+margin: auto;
+padding: 20px;
+font-family: var(--fonte-padrao);
+line-height: 2em;
+text-align: justify;}
+main > h1 {font-family: var(--fonte-android);
+padding-top: 135px;
+padding-bottom: 1px;
+color: var(--cor02);
+font-weight: bolder;}
+main > h2{font-family: var(--fonte-android);
+color: var(--cor04);
+background-image:linear-gradient(to right, var(--cor00),transparent);}
+main  a {text-decoration: none;
+color: var(--cor04);
+background-color: var(--cor00);}
+main a:hover {text-decoration: underline;
+background-color: var(--cor01);}
+.img{text-align: center;}
+main > p {text-indent: 20px;}
+main a::after {content: '\1F517\00A0';}
+
+aside{background-color: var(--cor02);
+border-radius: 5px;
+padding: 5px;}
+aside > h3{background-color: var(--cor04);
+text-indent: 10px;
+color: white;
+border-top-left-radius:5px ;
+border-top-right-radius:5px;
+margin: -5px;
+padding: 5px;}
+aside > ul {columns: 2;
+list-style-type: "\2714\00A0";}
+
+footer{background-color: white;
+padding:2px;
+margin: 10px;
+margin-top: 20px;
+margin-left: -10px;
+margin-right: -8px;
+margin-bottom: -10px;}
+footer > p {font-family: var(--fonte-header);
+text-align: center;}
+footer  a {text-decoration: none;
+color: black;}
+footer a:hover {text-decoration: underline;}
+
+.video{background-color: var(--cor04);
+margin-bottom: 20px;
+margin-top: 20px;
+padding-top: 20%;
+padding-bottom: 20%;
+position: relative;}
+
+.video > iframe {position:absolute;
+top: 10%;
+left: 10%;
+width: 80%;
+height: 80%;}
