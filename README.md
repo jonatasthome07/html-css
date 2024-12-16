@@ -3,4 +3,4 @@
 
  Estou aprendendo a utilizar o Git e o GitHub.
  
-<a href='https://jonatasthome07.github.io/html-css/desafios/desafio004/android.html'>executar o desafio 004</a>
+<a href='https://jonatasthome07.github.io/html-css/desafios/desafio004/android.html' target = '_blank'>executar o desafio 004</a>
